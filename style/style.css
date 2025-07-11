@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 
 .raleway-normal {
@@ -11,6 +12,7 @@
   font-style: normal;
 justify-content: center;
 width: 1440px;
+ background-color: #F5F8FF;
 }
 .header{
     background-image: url(../Assets/Hero-bg.png);
@@ -20,36 +22,43 @@ width: 1440px;
 }
 nav{
     
-    margin:10px 150px;
+    margin:10px 100px;
 
    
 }
 .nav-text{
-     margin: 60px 150px;
+     margin: 60px 50px;
      display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+      font-size: 35px;
+    color: #4E47FF;
+    font-weight: bold;
 }
-.nav-title{
-    font-size: 35px;
-    font-weight: 800;
-color: #4E47FF;
-}
+
 .btn-primary{
      background-color: #4E47FF;
     font-weight: bold;
     color: white;
     border: none;
     font-size: 16px;
-    padding: 12px 36px;
+    padding: 20px 36px;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
 }
-
+.btn-primary:hover{
+    background-color: green;
+    cursor: pointer;
+}
+/*  banner design */
 .banner{
      justify-content: space-between;
-  margin: 260px 116px 37px 116px ;
+  margin: 150px 116px 37px 116px ;
  text-align: center;
+}
+.banner h1{
+    font-size: 65px;
 }
 .banner button{
    margin-top: 50px;
@@ -125,6 +134,9 @@ padding-top: 40px;
     color: rgba(0, 0, 0, 0.589);
 }
 /* section three */
+.span{
+    font-size: xx-large;
+}
 .section-three{
     align-items: center;
     margin-top: 137px;
@@ -188,6 +200,9 @@ font-weight: 300;
     font-size: 50px;
     font-weight: bold;
 }
+.sec-four-text button{
+    margin: 20px;
+}
 .sec-four-img{
      height: 324px;
     width: 840px;
@@ -197,7 +212,8 @@ font-weight: 300;
     border: 50%;
     border-radius: 50%;
 }
-/* sectiom five */
+/* section five */
+
 .section-five{
     height: 632px;
     margin-top: 172px;
@@ -217,7 +233,7 @@ font-weight: 300;
     padding-bottom: 71px;
 }
 .form-column input[type="text"],.form-column input[type="email"],textarea {
-    height: 64px;
+    height: 50px;
     width: 100%;
     border-color: #FFF8F3;
     border-radius: 5px;
@@ -225,7 +241,8 @@ font-weight: 300;
     display: block;
     padding: 10px 20px;
     margin-bottom: 24px;
-     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.164);
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.164);
+   
 }
 .form-submit {
 width: 497px;
@@ -237,7 +254,8 @@ width: 497px;
  justify-content: space-between;
  width:auto;
  height: 430px;
- background-color: bisque;
+ background-color:white;
+ box-shadow: 5px 5px 80px 0 rgba(0, 0, 0, 0.164);
 
 }
 .footer-list{
