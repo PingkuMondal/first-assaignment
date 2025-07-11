@@ -1,0 +1,227 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+justify-content: center;
+width: 1440px;
+}
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    height: 698px;
+   
+}
+nav{
+    
+    margin:10px 150px;
+
+   
+}
+.nav-text{
+     margin: 60px 150px;
+     display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 35px;
+    font-weight: 800;
+color: #4E47FF;
+}
+.btn-primary{
+     background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner{
+     justify-content: space-between;
+  margin: 260px 116px 37px 116px ;
+ text-align: center;
+}
+.banner button{
+   margin-top: 50px;
+}
+/* main design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.sec-one{
+    display: flex;
+   justify-content: space-between;
+ gap: 220px;
+  margin-top: 116px;
+ align-items: center;
+}
+
+.act-text h1{
+font-size: 42px;
+font-weight: bold;
+color: #252432;
+padding-bottom: 23px;
+}
+.act-text p{
+ font-size: 24px;
+font-weight: 300px;
+color: hsla(244, 16%, 17%, 0.589);
+padding-bottom: 23px;
+}
+.act-img{
+    height: 324px;
+    width: 403px;
+    border-radius: 50px;
+   
+}
+/* section two */
+.sec-two{
+    background-color: #4d47ff28;
+   justify-content: space-between;
+  gap: 220px;
+  margin-top: 116px;
+  align-items: center;
+  height: 306px;
+  text-align: center;
+  border-radius: 15px;
+   
+}
+.sec-two-title{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 50px;
+
+  
+   }
+.sec-two-text{
+display: flex;
+justify-content: space-between;
+margin: 0 142px 50px 142px;
+gap: 158px;
+padding-top: 40px;
+
+
+}
+.sec-two-text h1{
+    font-size: 88px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+.sec-two-text p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.589);
+}
+/* section three */
+.section-three{
+    align-items: center;
+    margin-top: 137px;
+
+}
+.section-three h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-commend{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    
+}
+.card-one{
+    height: 143px;
+    width: 266px;
+    border-radius: 15px;
+    background-color: lch(100% 0.01 296.81 / 0.596);
+   box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.164);
+   margin-top: 50px;
+   padding: 50px 50px;
+
+} 
+
+.card-one p{
+font-size: 10px;
+font-weight: 300;
+
+}
+  
+  .car-text{
+    margin: 30px 0 30px 0;
+  }
+
+.car-date{
+    display: flex;
+    gap: 24px;
+}
+.car-in{
+    font-size: medium;
+    font-weight: 400;
+
+}
+/* section four design */
+.section-four{
+    justify-content: center;
+   text-align: center;
+    margin-top: 137px;
+    background-color: white;
+     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.164);
+    height: 695px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.sec-four-text-title{
+    padding: 71px 300px 10px 300px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.sec-four-img{
+     height: 324px;
+    width: 840px;
+    border-radius: 50px;
+}
+/* sectiom five */
+.section-five{
+    height: 632px;
+    margin-top: 172px;
+    display: flex;
+    align-items: center;
+  width: 1040px;
+    justify-content: space-between;
+   
+}
+.section-five-title{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 200px 115px 200px 0;
+}
+.form-column{
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.form-column input[type="text"],.form-column input[type="email"],textarea {
+    height: 64px;
+    width: 100%;
+    border-color: #FFF8F3;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.164);
+}
+.form-submit {
+width: 497px;
+}
