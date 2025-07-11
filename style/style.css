@@ -238,10 +238,10 @@ font-weight: 300;
 
 .section-five{
     height: 632px;
-    margin-top: 172px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
-  width: 1040px;
+   width: 1040px;
     justify-content: space-between;
    
 }
@@ -273,6 +273,11 @@ width: 497px;
     font-size: 16px;
     font-weight: bold;
     
+}
+.sort-text{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #757477;
 }
 /* footer */
 .footer-sec{
