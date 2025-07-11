@@ -306,3 +306,9 @@ cursor: pointer;
     
 color: #8987A1;
 }
+.content-logo:hover{
+    color: green;
+    cursor: pointer;
+   transform: scaleX(1.5) rotateY(360deg) ;
+   transition: 2s;
+}
