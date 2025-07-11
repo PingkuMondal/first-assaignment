@@ -45,6 +45,7 @@ color: #4E47FF;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .banner{
      justify-content: space-between;
   margin: 260px 116px 37px 116px ;
@@ -191,6 +192,10 @@ font-weight: 300;
      height: 324px;
     width: 840px;
     border-radius: 50px;
+}
+.image{
+    border: 50%;
+    border-radius: 50%;
 }
 /* sectiom five */
 .section-five{
